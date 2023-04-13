@@ -1,0 +1,16 @@
+{
+    "cSpell.enabled": false,
+    "files.exclude": {
+        "build*/": true
+    },
+    "clangd.arguments": [
+        "--header-insertion=never"
+    ],
+    "files.associations": {
+        "tm1637.h": "c",
+        "milis.h": "c",
+        "main.h": "c",
+        "stdio.h": "c",
+        "uart1.h": "c"
+    }
+}
