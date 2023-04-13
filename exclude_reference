@@ -50,3 +50,4 @@ _HSIDivFactor
 _UART1_GetFlagStatus
 _UART1_Init
 _UART1_Cmd
+_milis
