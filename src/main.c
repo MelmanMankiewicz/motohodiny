@@ -72,7 +72,7 @@ int main(void)
     {
         if(milis() - time > 1000) {
             time = milis();
-            if (secs == 1)
+            if (secs == 60)
             {
                 secs = 0;
                 min++;
@@ -98,6 +98,7 @@ int main(void)
 
         if (GPIO_ReadInputPin(GPIOD, GPIO_PIN_4) != RESET)
         {
+            time = milis();
             hours = 0;
             min = 0;
             secs = 0;
